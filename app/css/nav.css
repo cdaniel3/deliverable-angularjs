@@ -1,0 +1,12 @@
+body {
+  padding-top: 50px;
+}
+.deliv-nav-item {
+	margin: 8px 4px 8px 4px;
+}
+.nav-back-search {
+	margin: 8px 0 8px;
+}
+.nav-back-search a {
+	color: #000000;
+}

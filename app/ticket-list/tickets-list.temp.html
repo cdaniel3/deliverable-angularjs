@@ -1,0 +1,20 @@
+<table id="tickets">
+<tbody><tr>
+  <th>Id</th>
+  <th>Type</th>
+  <th>Priority</th>
+  <th>Name</th>
+  <th>Status</th>
+  <th>Created</th>
+</tr>
+
+<tr ng-repeat="ticket in $ctrl.tickets">
+	<td>{{ticket.id}}</td>
+	<td><a href="/deliverable/viewTickets/{{ticket.id}}">{{ticket.ticketType.name}}</a></td>
+	<td>{{ticket.priority.value}}</td>
+	<td>{{ticket.name}}</td>
+	<td>{{ticket.status.value}}</td>
+	<td>{{ticket.dateCreated}}</td>
+</tr>
+
+</tbody></table>

@@ -1,0 +1,45 @@
+
+	<div class="wrapper">
+
+	<div class="menu">
+		<div class="navlink">
+			<a href="#!/tickets">&lt;&nbsp;Back to search</a>
+		</div>
+	</div>
+
+	<div class="container">
+
+		<div class="page">
+
+		<div class="sidebar">
+			<div class="ticket-bug">{{$ctrl.ticket.ticketType.name}}</div>
+			<!-- Use ng-click on priority field name so that it can switch to an input field
+				once it's clicked -->
+			<div class="ticket-fieldname">Priority:<span class="editable-field">{{$ctrl.ticket.priority.value}}</span></div>
+			<div class="ticket-fieldname">Status:<span class="editable-field">{{$ctrl.ticket.status.value}}</span></div>
+			<div class="ticket-fieldname">Created:<span class="editable-field">{{$ctrl.ticket.dateCreated | date:'M/d/yyyy'}}</span></div>
+		</div>
+		<div class="content">
+
+			<div class="ticket-name">{{$ctrl.ticket.name}}</div>
+
+			<div class="ticket-description">
+				{{$ctrl.ticket.description}}
+				Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste. Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste. Lorem ipsum dolor sit amet. Praesentium magnam consectetur vel in deserunt aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.
+
+			</div>
+			<div class="ticket-comments">
+				<div class="comments-heading">Comments</div>
+				<div class="comments-content">
+					Consectetur adipisicing elit. Praesentium magnam consectetur vel in deserunt 	aspernatur est reprehenderit sunt hic. Nulla tempora soluta ea et odio, unde doloremque repellendus iure, iste.
+				</div>
+			</div>
+		</div>
+
+		</div>
+	</div>
+	<div class="push"></div>
+</div>
+	<div class="footer">
+	  <div class="footer-content">deliverable</div>
+	</div>
